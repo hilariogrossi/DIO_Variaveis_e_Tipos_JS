@@ -1,0 +1,9 @@
+//Empty = 0 (vazia) [] {} ''
+//null = nulo - não quer que o valor exista de propósito
+//undefined = indefinido - não foi declarado nada
+
+let abacaxi; //undefined
+let abacaxi = "" //empty - 'string'
+abacaxi = null //object e é nulo (null)
+abacaxi === true //retorna false - não é uma condicional - não é igual ao boolean
+!abacaxi //retorna true - falsy values - não é igual ao boleano
