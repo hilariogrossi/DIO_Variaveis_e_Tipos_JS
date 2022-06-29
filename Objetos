@@ -1,0 +1,25 @@
+let objeto = {
+        
+};
+
+objeto.nome = 'Hilário';
+objeto.idade = 51,
+
+console.table(objeto);
+console.log(Object.values(objeto));
+console.log(Object.keys(objeto));
+
+let pessoa = {
+    nome: 'Patrícia',
+    idade: 54
+}
+
+pessoa["numeroDeIrmaos"] = 7;
+pessoa["nomeDaMae"] = 'Oneida';
+
+console.table(pessoa);
+console.log(pessoa.nome);
+console.log(pessoa['nome']);
+console.log(pessoa['idade']);
+console.log(pessoa.numeroDeIrmaos);
+console.log(pessoa.nomeDaMae);
