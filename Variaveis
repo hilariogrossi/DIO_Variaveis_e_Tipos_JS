@@ -1,0 +1,69 @@
+/*numeroUm = 1;
+
+console.log(numeroUm + 2);
+
+var numeroUm; // com o Let não funciona, pois passou do escopo
+
+*/
+
+/*let primeiroNome = 'João';
+let ultimoNome = 'Souza';
+
+if (primeiroNome === 'João') {
+    let primeiroNome = 'Hilário';
+    let ultimoNome = 'Oliveira';
+    console.log(primeiroNome, ultimoNome);
+}
+
+console.log(primeiroNome, ultimoNome);
+// Saída = Hilário Oliveira (Local) e João Souza (Global)*/
+
+/*const PRIMEIRO_NOME;
+PRIMEIRO_NOMNE = 'Hilário';
+constantes não sofrem variação. Não mudam.*/
+
+/*let um = 'Um';
+console.log(typeof(um));
+um = 1;
+console.log(typeof(um));
+
+const DIO = 'Digital Innovation One';
+
+let primeiroNome = 'Hilário';
+let nomeDoMeio = 'Grossi de';
+let ultimoNome = 'Oliveira';
+
+console.log(`O nome completo do aluno é ${primeiroNome} ${nomeDoMeio} ${ultimoNome} e ele está estudando na escola ${DIO}.`)
+
+console.log(primeiroNome.concat(nomeDoMeio.concat(ultimoNome)));
+
+console.log(primeiroNome, nomeDoMeio, ultimoNome);*/
+
+/*let exemplo = new String('Hilário');
+typeof exemplo // object*/
+
+/*let nome = 'Hilário Grossi de Oliveira';
+console.log(nome.split(''));
+console.log(nome.split(' '));
+
+console.log(nome.includes('Grossi'));
+console.log(nome.startsWith('Hilário')); //o nome começa com 'Hilário'?
+console.log(nome.endsWith('Oliveira')); //o nome termina com 'Oliveira'?
+
+console.log(nome.replace('de', 'De')); //não altera o let nome inicial*/
+
+/*let num = 100;
+console.log(num / 5);
+console.log(num % 2); //Par
+console.log(num % 3); //Ímpar
+
+
+console.log(typeof Math); //object => Biblioteca Math
+console.log(Math.log10(num));*/
+
+/*let validacao = 3 === 0; //Booleans
+console.log(validacao);
+
+validacao = 3 === 3; //Booleans
+console.log(validacao); 
+*/
