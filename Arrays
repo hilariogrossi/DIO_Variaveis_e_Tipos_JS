@@ -1,0 +1,25 @@
+let array = [];
+
+array.push(3); //Acrescenta o número 3 ao final do array
+array.push(2); //Acrescenta o número 2 ao final do array
+array.push(5); //Acrescenta o número 5 ao final do array
+
+//array.pop(); //Retira o último elemento (no final) do array
+
+//array.shift(); //Retira o primeiro elemnto (no início) do array
+
+array.unshift(10); //Acrescenta o número 10 no início do array
+
+console.log(array);
+
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+
+console.log(array.includes(1));
+
+console.log(array.every(item => item ===5)); //Se todos (every) elementos do array são 5.
+
+console.log(array.some(item => item ===5)); //Se todos (every) elementos do array são 5.
+
+console.log(array.reverse()); //Reverte todos os elemntos do array
