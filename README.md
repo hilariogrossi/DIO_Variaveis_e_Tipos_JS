@@ -1,1 +1,1 @@
-# DIO_Variaveis_e_Tipos_JS
+Variáveis e Tipos Java Script
