@@ -1,0 +1,24 @@
+#Exemplo 1
+
+function verificaPalindromo (string) {
+    if (!string) return 'String Inexistente ou Vazia!';
+    return string.split("").reverse().join("") === string;
+}
+
+console.log(verificaPalindromo('abasedotetodesaba')); //retorna true ou false
+
+#Exemplo 2
+
+function varificaPalindromo2(string) {
+	if (!string) return 'String Inexistente ou Vazia!';
+	if (!string.length) return 'String Inexistente ou Vazia!';
+
+	for (var i = 0; i < string.length / 2; i++) {
+		if (string[i] !== string[string.length - 1 - i]) {
+			return console.log(false);
+		}
+	}
+	return console.log(true);
+}
+
+varificaPalindromo2('asas');
